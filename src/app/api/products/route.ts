@@ -1,5 +1,5 @@
 import data from './data.json'
 
-export default async function GET() {
+export async function GET() {
   return Response.json(data.products)
 }
